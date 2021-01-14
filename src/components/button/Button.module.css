@@ -1,0 +1,19 @@
+.button {
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    cursor: pointer;
+    border: 1px solid rgba(0, 255, 195, 0.2);
+    background-color: rgb(189, 236, 229);
+    transition-duration: 450ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: rgb(91, 42, 165);
+    font-size: 18px;
+}
+
+.button:hover {
+    border: 1px solid rgba(0, 255, 195, 0.723);
+    background-color: rgb(127, 236, 219);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.3);
+}
